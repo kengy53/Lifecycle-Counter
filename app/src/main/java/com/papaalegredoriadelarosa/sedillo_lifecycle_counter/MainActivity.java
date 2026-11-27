@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
     private Button countButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+        super.onCreate(savedInstanceState); Log.d(TAG, "onCreate");;
         setContentView(R.layout.activity_main);
         countText = findViewById(R.id.count_text);
         countButton = findViewById(R.id.count_button);
